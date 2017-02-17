@@ -1,0 +1,9 @@
+C:\Users\Angie\Desktop\DCCProjects\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\bin\Debug\RockPaperScissorsLizardSpock.exe.config
+C:\Users\Angie\Desktop\DCCProjects\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\bin\Debug\RockPaperScissorsLizardSpock.exe
+C:\Users\Angie\Desktop\DCCProjects\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\bin\Debug\RockPaperScissorsLizardSpock.pdb
+C:\Users\Angie\Desktop\DCCProjects\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\obj\Debug\RockPaperScissorsLizardSpock.exe
+C:\Users\Angie\Desktop\DCCProjects\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\obj\Debug\RockPaperScissorsLizardSpock.pdb
+C:\Users\Angie\Desktop\DCCProjects\RockPaperScissorsLizardSpock\RockPaperScissorsLizardSpock\obj\Debug\RockPaperScissorsLizardSpock.csprojResolveAssemblyReference.cache
+C:\Users\Angie\Desktop\DCCProjects\C#Projects\RPSLS\RockPaperScissorsLizardSpock\bin\Debug\RockPaperScissorsLizardSpock.exe.config
+C:\Users\Angie\Desktop\DCCProjects\C#Projects\RPSLS\RockPaperScissorsLizardSpock\obj\Debug\RockPaperScissorsLizardSpock.exe
+C:\Users\Angie\Desktop\DCCProjects\C#Projects\RPSLS\RockPaperScissorsLizardSpock\obj\Debug\RockPaperScissorsLizardSpock.pdb
