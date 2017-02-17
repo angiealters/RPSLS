@@ -31,7 +31,8 @@ namespace RockPaperScissorsLizardSpock
                 + "\n Lizard eats Paper"
                 + "\n Paper disproves Spock"
                 + "\n Spock vaporizes Rock"
-                + "\n Rock crushes Scissors");
+                + "\n Rock crushes Scissors"
+                + "\n Best out of three wins the game!);
         }
     }
 }

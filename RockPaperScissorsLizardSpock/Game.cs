@@ -10,7 +10,6 @@ namespace RockPaperScissorsLizardSpock
     {
         //member variables
         string[] action = { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
-        string winner;
         Player playerOne;
         Player playerTwo;
         Rules rules;
@@ -36,6 +35,7 @@ namespace RockPaperScissorsLizardSpock
                 DetermineWinner();
             }
             GameWinner();
+            PlayAgain();
             
 
         }
@@ -72,6 +72,26 @@ namespace RockPaperScissorsLizardSpock
             }
             Console.ReadLine();
         }
+        public void PlayAgain()
+        {
+            Console.WriteLine("Would you like to play again?"
+                + "\n Enter 'yes' to play again"
+                + "\n Enter 'no' to exit");
+            string restart = Console.ReadLine();
+            switch (restart)
+            {
+                case "yes":
+                    RunGame();
+                    break;
+                case "no":
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("That was not a valid entry. Please try again.");
+                    PlayAgain();
+                    break;
+            }
+       }
         public void DetermineWinner()
         {
             string playerOneAction = action[playerOne.input];
