@@ -17,8 +17,6 @@ namespace RockPaperScissorsLizardSpock
         public Game()
         {
             rules = new Rules();
-         
-
         }
 
         //methods
@@ -70,7 +68,6 @@ namespace RockPaperScissorsLizardSpock
             {
                 Console.WriteLine($"{playerTwo.name} wins the game!");
             }
-            Console.ReadLine();
         }
         public void PlayAgain()
         {
@@ -94,8 +91,10 @@ namespace RockPaperScissorsLizardSpock
        }
         public void DetermineWinner()
         {
-            string playerOneAction = action[playerOne.input];
-            string playerTwoAction = action[playerTwo.input];
+            try
+            {
+                string playerOneAction = action[playerOne.input];
+                string playerTwoAction = action[playerTwo.input];
 
                 if (playerOneAction == action[0])
                 {
@@ -232,9 +231,12 @@ namespace RockPaperScissorsLizardSpock
                         playerTwo.score++;
                     }
                 }
-                Console.ReadLine();
+            }
+            catch (IndexOutOfRangeException)
+            {
+                Console.WriteLine("Error: Index should be from 0 to 4");
+            }
         }
-
     }
 }
 

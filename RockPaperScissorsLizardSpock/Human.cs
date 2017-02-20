@@ -22,8 +22,16 @@ namespace RockPaperScissorsLizardSpock
         public override void GetPlayerInput()
         {
             base.GetPlayerInput();
-            Console.WriteLine("Enter '0' for rock, '1' for paper, '2' for scissors, '3' for lizard, or '4' for spock.");
-            input = int.Parse(Console.ReadLine());
+            Console.WriteLine("{0}: Enter '0' for rock, '1' for paper, '2' for scissors, '3' for lizard, or '4' for spock.", name);
+            try
+            {
+                input = int.Parse(Console.ReadLine());
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("Please enter a number between 0 and 4");
+                GetPlayerInput();
+            }
         }
     }
 }

@@ -11,7 +11,8 @@ namespace RockPaperScissorsLizardSpock
         static void Main(string[] args)
         {
             Game playGame = new Game();
-            playGame.RunGame();           
+            playGame.RunGame();
+                       
         }
     }
 }

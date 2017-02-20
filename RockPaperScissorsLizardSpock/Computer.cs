@@ -24,7 +24,6 @@ namespace RockPaperScissorsLizardSpock
             Random random = new Random();
             input = random.Next(0,5);
             Console.WriteLine($"Sheldon chose {input}");
-            Console.ReadLine();
         }
 
     }

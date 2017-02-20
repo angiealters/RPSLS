@@ -32,7 +32,7 @@ namespace RockPaperScissorsLizardSpock
                 + "\n Paper disproves Spock"
                 + "\n Spock vaporizes Rock"
                 + "\n Rock crushes Scissors"
-                + "\n Best out of three wins the game!);
+                + "\n Best out of three wins the game!");
         }
     }
 }
